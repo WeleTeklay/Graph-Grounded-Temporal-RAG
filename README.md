@@ -75,7 +75,7 @@ python api.py
 ```
 
 ## Results
-- 98% diagnostic pass rate on core components
+- 98% diagnostic pass rate on vector database, hybrid retrieval, reranking, and LLM integration
 - Average query response time: 3,481 ms on standard laptop
 - Fully offline — no API keys, no internet required
 - Works on any evolving document corpus (legal, medical, financial, HR)
