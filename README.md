@@ -85,4 +85,4 @@ python api.py
 - Gebregergs Mekonen — github.com/gere047
 
 ## Advisors
-Assefa Tesfay(PhD) and Yaecob Girmay(MSc.) — Mekelle Institute of Technology
+Assefa Tesfay (PhD) and Yaecob Girmay (MSc.) — Mekelle Institute of Technology
