@@ -1,0 +1,10 @@
+venv/ 
+data/raw_pdfs/ 
+data/processed_texts/ 
+data/chunks/ 
+data/extracted/ 
+data/vectors/ 
+__pycache__/ 
+*.pyc 
+.env 
+.DS_Store 

@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the effective date of the original agreement?",
+    "expected_answer": "2020-01-15",
+    "category": "temporal"
+  },
+  {
+    "question": "What is the governing law?",
+    "expected_answer": "Ethiopian",
+    "category": "general"
+  },
+  {
+    "question": "Who are the parties involved?",
+    "expected_answer": "Employer",
+    "category": "general"
+  },
+  {
+    "question": "What does Section 1.1 state?",
+    "expected_answer": "employment",
+    "category": "specific"
+  }
+]

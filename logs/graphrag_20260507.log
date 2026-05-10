@@ -1,0 +1,244 @@
+2026-05-07 06:30:06 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 3408 documents
+2026-05-07 06:30:25 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 06:30:25 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 09:07:53 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 3408 documents
+2026-05-07 09:08:06 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 09:08:06 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 09:22:03 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 3408 documents
+2026-05-07 09:22:08 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 3408 documents
+2026-05-07 09:22:17 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 09:22:17 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 09:22:21 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 09:22:21 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 09:26:26 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 3408 documents
+2026-05-07 09:26:41 | WARNING  | src.optimized_retriever | __init__ | Graph unavailable: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2026-05-07 09:26:41 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 09:30:12 | INFO     | __main__ | main | ============================================================
+2026-05-07 09:30:12 | INFO     | __main__ | main | Phase 1: Production Universal Document Parser
+2026-05-07 09:30:12 | INFO     | __main__ | main | ============================================================
+2026-05-07 09:30:12 | INFO     | __main__ | __init__ | Format support: PDF=YES, DOCX=False, Markdown/HTML=False
+2026-05-07 09:30:12 | INFO     | __main__ | parse_all_documents | Found 7 documents in manifest
+2026-05-07 09:30:12 | INFO     | __main__ | parse_single_document | Parsing: tax_2025 - Income Tax Proclamation 2025 (PDF)
+2026-05-07 09:30:13 | INFO     | __main__ | parse_single_document | Parsed tax_2025: 45 pages, 37,401 chars, 6,269 words
+2026-05-07 09:30:13 | INFO     | src.utils | __exit__ | Parse tax_2025 completed in 0.74s
+2026-05-07 09:30:13 | INFO     | __main__ | parse_single_document | Parsing: tax_2022 - Income Tax Proclamation 2022 (PDF)
+2026-05-07 09:30:13 | INFO     | __main__ | parse_single_document | Parsed tax_2022: 2 pages, 1,261 chars, 193 words
+2026-05-07 09:30:13 | INFO     | src.utils | __exit__ | Parse tax_2022 completed in 0.09s
+2026-05-07 09:30:13 | INFO     | __main__ | parse_single_document | Parsing: tax_2021 - Income Tax Proclamation 2021 (PDF)
+2026-05-07 09:30:13 | INFO     | __main__ | parse_single_document | Parsed tax_2021: 5 pages, 4,570 chars, 760 words
+2026-05-07 09:30:13 | INFO     | src.utils | __exit__ | Parse tax_2021 completed in 0.10s
+2026-05-07 09:30:13 | INFO     | __main__ | parse_single_document | Parsing: tax_2017 - Income Tax Proclamation 2017 (PDF)
+2026-05-07 09:30:14 | INFO     | __main__ | parse_single_document | Parsed tax_2017: 40 pages, 48,279 chars, 8,167 words
+2026-05-07 09:30:14 | INFO     | src.utils | __exit__ | Parse tax_2017 completed in 0.40s
+2026-05-07 09:30:14 | INFO     | __main__ | parse_single_document | Parsing: tax_2009 - Income Tax Proclamation 2009 (PDF)
+2026-05-07 09:30:14 | INFO     | __main__ | parse_single_document | Parsed tax_2009: 11 pages, 7,750 chars, 1,909 words
+2026-05-07 09:30:14 | INFO     | src.utils | __exit__ | Parse tax_2009 completed in 0.12s
+2026-05-07 09:30:14 | INFO     | __main__ | parse_single_document | Parsing: tax_2002 - Income Tax Proclamation 2002 (PDF)
+2026-05-07 09:30:31 | INFO     | __main__ | parse_single_document | Parsed tax_2002: 39 pages, 120,546 chars, 18,221 words
+2026-05-07 09:30:31 | INFO     | src.utils | __exit__ | Parse tax_2002 completed in 17.24s
+2026-05-07 09:30:31 | INFO     | __main__ | parse_single_document | Parsing: tax_2001 - Income Tax Proclamation 2001 (PDF)
+2026-05-07 09:30:33 | INFO     | __main__ | parse_single_document | Parsed tax_2001: 5 pages, 10,037 chars, 1,671 words
+2026-05-07 09:30:33 | INFO     | src.utils | __exit__ | Parse tax_2001 completed in 1.55s
+2026-05-07 09:30:33 | INFO     | __main__ | parse_all_documents | Parsing complete: 7/7 successful
+2026-05-07 09:30:33 | INFO     | __main__ | main | ✅ Successfully parsed 7 documents
+2026-05-07 09:30:33 | INFO     | __main__ | main | 📁 Output directory: d:\RAG_Project\data\processed_texts
+2026-05-07 09:30:33 | INFO     | __main__ | main | 📊 Report: d:\RAG_Project\data\processed_texts/parsing_report.json
+2026-05-07 09:31:19 | INFO     | __main__ | main | ============================================================
+2026-05-07 09:31:19 | INFO     | __main__ | main | Phase 1: Production Universal Document Parser
+2026-05-07 09:31:19 | INFO     | __main__ | main | ============================================================
+2026-05-07 09:31:19 | INFO     | __main__ | __init__ | Format support: PDF=YES, DOCX=False, Markdown/HTML=False
+2026-05-07 09:31:19 | INFO     | __main__ | parse_all_documents | Found 7 documents in manifest
+2026-05-07 09:31:19 | INFO     | __main__ | parse_single_document | Parsing: tax_2025 - Income Tax Proclamation 2025 (PDF)
+2026-05-07 09:31:20 | INFO     | __main__ | parse_single_document | Parsed tax_2025: 45 pages, 37,401 chars, 6,269 words
+2026-05-07 09:31:20 | INFO     | src.utils | __exit__ | Parse tax_2025 completed in 0.39s
+2026-05-07 09:31:20 | INFO     | __main__ | parse_single_document | Parsing: tax_2022 - Income Tax Proclamation 2022 (PDF)
+2026-05-07 09:31:20 | INFO     | __main__ | parse_single_document | Parsed tax_2022: 2 pages, 1,261 chars, 193 words
+2026-05-07 09:31:20 | INFO     | src.utils | __exit__ | Parse tax_2022 completed in 0.06s
+2026-05-07 09:31:20 | INFO     | __main__ | parse_single_document | Parsing: tax_2021 - Income Tax Proclamation 2021 (PDF)
+2026-05-07 09:31:20 | INFO     | __main__ | parse_single_document | Parsed tax_2021: 5 pages, 4,570 chars, 760 words
+2026-05-07 09:31:20 | INFO     | src.utils | __exit__ | Parse tax_2021 completed in 0.08s
+2026-05-07 09:31:20 | INFO     | __main__ | parse_single_document | Parsing: tax_2017 - Income Tax Proclamation 2017 (PDF)
+2026-05-07 09:31:20 | INFO     | __main__ | parse_single_document | Parsed tax_2017: 40 pages, 48,279 chars, 8,167 words
+2026-05-07 09:31:20 | INFO     | src.utils | __exit__ | Parse tax_2017 completed in 0.42s
+2026-05-07 09:31:20 | INFO     | __main__ | parse_single_document | Parsing: tax_2009 - Income Tax Proclamation 2009 (PDF)
+2026-05-07 09:31:20 | INFO     | __main__ | parse_single_document | Parsed tax_2009: 11 pages, 7,750 chars, 1,909 words
+2026-05-07 09:31:20 | INFO     | src.utils | __exit__ | Parse tax_2009 completed in 0.16s
+2026-05-07 09:31:20 | INFO     | __main__ | parse_single_document | Parsing: tax_2002 - Income Tax Proclamation 2002 (PDF)
+2026-05-07 09:31:39 | INFO     | __main__ | parse_single_document | Parsed tax_2002: 39 pages, 120,546 chars, 18,221 words
+2026-05-07 09:31:39 | INFO     | src.utils | __exit__ | Parse tax_2002 completed in 18.14s
+2026-05-07 09:31:39 | INFO     | __main__ | parse_single_document | Parsing: tax_2001 - Income Tax Proclamation 2001 (PDF)
+2026-05-07 09:31:40 | INFO     | __main__ | parse_single_document | Parsed tax_2001: 5 pages, 10,037 chars, 1,671 words
+2026-05-07 09:31:40 | INFO     | src.utils | __exit__ | Parse tax_2001 completed in 1.67s
+2026-05-07 09:31:40 | INFO     | __main__ | parse_all_documents | Parsing complete: 7/7 successful
+2026-05-07 09:31:40 | INFO     | __main__ | main | ✅ Successfully parsed 7 documents
+2026-05-07 09:31:40 | INFO     | __main__ | main | 📁 Output directory: d:\RAG_Project\data\processed_texts
+2026-05-07 09:31:40 | INFO     | __main__ | main | 📊 Report: d:\RAG_Project\data\processed_texts/parsing_report.json
+2026-05-07 09:31:52 | INFO     | __main__ | main | ============================================================
+2026-05-07 09:31:52 | INFO     | __main__ | main | Phase 2: Production Semantic Chunker
+2026-05-07 09:31:52 | INFO     | __main__ | main | ============================================================
+2026-05-07 09:31:52 | INFO     | __main__ | main | Found 7 processed documents
+2026-05-07 09:31:52 | INFO     | src.utils | __exit__ | Chunking all documents completed in 0.37s
+2026-05-07 09:31:52 | INFO     | __main__ | main | ✅ Created 287 chunks from 7 documents
+2026-05-07 09:31:52 | INFO     | __main__ | main | 📁 Chunks: d:\RAG_Project\data\chunks\clauses.json
+2026-05-07 09:31:52 | INFO     | __main__ | main | 📊 Stats: d:\RAG_Project\data\chunks\chunking_stats.json
+2026-05-07 09:31:52 | INFO     | __main__ | main | 📊 Average chunks per document: 41.0
+2026-05-07 09:32:05 | INFO     | __main__ | main | ============================================================
+2026-05-07 09:32:05 | INFO     | __main__ | main | Phase 3: Production Entity Extractor
+2026-05-07 09:32:05 | INFO     | __main__ | main | ============================================================
+2026-05-07 09:32:05 | INFO     | __main__ | main | Loaded 287 chunks
+2026-05-07 09:32:05 | INFO     | __main__ | main | TEST MODE: Processing first 5 chunks only
+2026-05-07 09:32:05 | ERROR    | src.utils | safe_json_load | JSON file not found: d:\RAG_Project\data\extracted\cache\extraction_cache.json
+2026-05-07 09:32:05 | INFO     | __main__ | extract_all | Test mode: processing 5 chunks
+2026-05-07 09:32:05 | ERROR    | src.utils | wrapper | Error in extract_from_chunk: '"clause_number"'
+2026-05-07 09:32:05 | ERROR    | src.utils | wrapper | Error in extract_from_chunk: '"clause_number"'
+2026-05-07 09:32:06 | ERROR    | src.utils | wrapper | Error in extract_from_chunk: '"clause_number"'
+2026-05-07 09:32:06 | ERROR    | src.utils | wrapper | Error in extract_from_chunk: '"clause_number"'
+2026-05-07 09:32:06 | ERROR    | src.utils | wrapper | Error in extract_from_chunk: '"clause_number"'
+2026-05-07 09:32:06 | INFO     | src.utils | __exit__ | Entity extraction completed in 1.08s
+2026-05-07 09:32:06 | INFO     | __main__ | main | ✅ Extraction complete
+2026-05-07 09:32:06 | INFO     | __main__ | main |    Success: 0
+2026-05-07 09:32:06 | INFO     | __main__ | main |    Cached: 0
+2026-05-07 09:32:06 | INFO     | __main__ | main |    Failed: 0
+2026-05-07 09:32:06 | INFO     | __main__ | main | 📁 Output: d:\RAG_Project\data\extracted\entities.jsonl
+2026-05-07 09:32:24 | INFO     | __main__ | main | ============================================================
+2026-05-07 09:32:24 | INFO     | __main__ | main | Phase 4: Production Graph Builder (FIXED)
+2026-05-07 09:32:24 | INFO     | __main__ | main | ============================================================
+2026-05-07 09:32:28 | WARNING  | __main__ | _connect | Connection attempt 1 failed: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2026-05-07 09:32:34 | WARNING  | __main__ | _connect | Connection attempt 2 failed: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2026-05-07 09:32:40 | WARNING  | __main__ | _connect | Connection attempt 3 failed: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2026-05-07 09:32:40 | ERROR    | __main__ | _connect | Failed to connect to Neo4j after retries
+2026-05-07 09:32:40 | INFO     | __main__ | build | Loaded 287 chunks from 7 documents
+2026-05-07 09:32:44 | ERROR    | src.utils | wrapper | Error in clear_database: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2026-05-07 09:32:49 | ERROR    | src.utils | wrapper | Error in create_indexes: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2026-05-07 09:32:53 | ERROR    | src.utils | wrapper | Error in create_clause_node: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2026-05-07 09:32:57 | INFO     | src.utils | __exit__ | Graph building completed in 16.76s
+2026-05-07 09:33:04 | INFO     | __main__ | main | ============================================================
+2026-05-07 09:33:04 | INFO     | __main__ | main | Phase 4: Production Graph Builder (FIXED)
+2026-05-07 09:33:04 | INFO     | __main__ | main | ============================================================
+2026-05-07 09:33:08 | WARNING  | __main__ | _connect | Connection attempt 1 failed: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2026-05-07 09:33:15 | WARNING  | __main__ | _connect | Connection attempt 2 failed: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2026-05-07 09:33:21 | WARNING  | __main__ | _connect | Connection attempt 3 failed: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2026-05-07 09:33:21 | ERROR    | __main__ | _connect | Failed to connect to Neo4j after retries
+2026-05-07 09:33:21 | INFO     | __main__ | build | Loaded 287 chunks from 7 documents
+2026-05-07 09:33:25 | ERROR    | src.utils | wrapper | Error in clear_database: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2026-05-07 09:33:36 | INFO     | __main__ | create_indexes | Indexes created
+2026-05-07 09:33:51 | INFO     | __main__ | build | Created 287 Clause nodes
+2026-05-07 09:33:53 | INFO     | __main__ | create_document_nodes | Created 7 Document nodes
+2026-05-07 09:33:53 | INFO     | __main__ | build | Created 7 Document nodes
+2026-05-07 09:33:54 | INFO     | __main__ | build | Created 0 SUPERSEDES relationships
+2026-05-07 09:33:54 | INFO     | src.utils | __exit__ | Graph building completed in 33.17s
+2026-05-07 09:33:55 | INFO     | __main__ | build | ✅ Graph build complete in 34.1s
+2026-05-07 09:33:55 | INFO     | __main__ | build |    Clause nodes: 3408
+2026-05-07 09:33:55 | INFO     | __main__ | build |    Document nodes: 7
+2026-05-07 09:33:55 | INFO     | __main__ | build |    SUPERSEDES relationships: 0
+2026-05-07 09:33:55 | INFO     | __main__ | build | 📊 Report: d:\RAG_Project\data\processed_texts\graph_build_report.json
+2026-05-07 09:33:55 | INFO     | __main__ | main | ✅ Successfully built graph with 287 nodes
+2026-05-07 09:34:29 | INFO     | __main__ | main | ============================================================
+2026-05-07 09:34:29 | INFO     | __main__ | main | Phase 5: Production Vector Index Builder
+2026-05-07 09:34:29 | INFO     | __main__ | main | ============================================================
+2026-05-07 09:34:39 | INFO     | __main__ | _initialize | Loaded embedding model: all-MiniLM-L6-v2
+2026-05-07 09:34:39 | INFO     | __main__ | build | Loaded 287 chunks
+2026-05-07 09:34:45 | INFO     | __main__ | _get_or_create_collection | Deleted existing collection: legal_clauses
+2026-05-07 09:34:45 | INFO     | __main__ | _get_or_create_collection | Created new collection: legal_clauses
+2026-05-07 09:34:45 | INFO     | __main__ | index_chunks | Indexing 287 chunks in 3 batches
+2026-05-07 09:35:15 | INFO     | src.utils | __exit__ | Vector indexing completed in 36.67s
+2026-05-07 09:35:17 | INFO     | __main__ | build | ✅ Index build complete in 38.8s
+2026-05-07 09:35:17 | INFO     | __main__ | build |    Chunks indexed: 287/287
+2026-05-07 09:35:17 | INFO     | __main__ | build |    Collection size: 45.79 MB
+2026-05-07 09:35:17 | INFO     | __main__ | build | 📊 Report: d:\RAG_Project\data\vectors\index_build_report.json
+2026-05-07 09:35:17 | INFO     | __main__ | main | ✅ Successfully indexed 287 chunks
+2026-05-07 09:40:53 | INFO     | __main__ | _init_vector_db | Connected to ChromaDB: 287 documents
+2026-05-07 09:40:55 | INFO     | __main__ | _init_graph_db | Connected to Neo4j: bolt://localhost:7687
+2026-05-07 09:41:15 | INFO     | __main__ | __init__ | Loaded reranker: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-05-07 09:41:15 | INFO     | __main__ | _build_index | Built BM25 index with 287 documents
+2026-05-07 09:41:15 | INFO     | __main__ | __init__ | Contradiction detector initialized
+2026-05-07 09:41:15 | INFO     | __main__ | __init__ | QueryEngine initialized successfully
+2026-05-07 09:42:31 | INFO     | __main__ | answer | Query: Question... → 62631ms
+2026-05-07 09:44:04 | INFO     | __main__ | answer | Query: what is the tax for the Monthly Income from Employ... → 53116ms
+2026-05-07 09:44:59 | INFO     | src.query_engine | _init_vector_db | Connected to ChromaDB: 287 documents
+2026-05-07 09:45:01 | INFO     | src.query_engine | _init_graph_db | Connected to Neo4j: bolt://localhost:7687
+2026-05-07 09:45:23 | INFO     | src.query_engine | __init__ | Loaded reranker: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-05-07 09:45:24 | INFO     | src.query_engine | _build_index | Built BM25 index with 287 documents
+2026-05-07 09:45:24 | INFO     | src.query_engine | __init__ | Contradiction detector initialized
+2026-05-07 09:45:24 | INFO     | src.query_engine | __init__ | QueryEngine initialized successfully
+2026-05-07 09:47:47 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 287 documents
+2026-05-07 09:48:00 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 09:48:00 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 10:13:29 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 287 documents
+2026-05-07 10:13:43 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 10:13:43 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 10:40:50 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 287 documents
+2026-05-07 10:41:11 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 10:41:11 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 10:56:14 | INFO     | src.ingest | ingest_single_document | Ingesting document: doc_078e5be1 (effective: 2026-07-04)
+2026-05-07 10:56:15 | INFO     | src.ingest | ingest_single_document | Saved processed text: D:\RAG_Project\data\processed_texts\doc_078e5be1.txt
+2026-05-07 10:56:16 | INFO     | src.ingest | ingest_single_document | Added 1 chunks to clauses.json
+2026-05-07 10:56:21 | INFO     | src.ingest | ingest_single_document | Ingesting document: doc_01b359e2 (effective: 2026-07-04)
+2026-05-07 10:56:22 | INFO     | src.ingest | ingest_single_document | Saved processed text: D:\RAG_Project\data\processed_texts\doc_01b359e2.txt
+2026-05-07 10:56:23 | INFO     | src.ingest | ingest_single_document | Added 1 chunks to clauses.json
+2026-05-07 10:56:24 | ERROR    | src.ingest | ingest_single_document | Failed to add to ChromaDB: Cannot send a request, as the client has been closed.
+2026-05-07 10:56:30 | ERROR    | src.ingest | ingest_single_document | Failed to add to ChromaDB: Cannot send a request, as the client has been closed.
+2026-05-07 10:57:03 | INFO     | src.ingest | ingest_single_document | Ingesting document: doc_5431cb76 (effective: 2026-07-04)
+2026-05-07 10:57:04 | INFO     | src.ingest | ingest_single_document | Saved processed text: D:\RAG_Project\data\processed_texts\doc_5431cb76.txt
+2026-05-07 10:57:05 | INFO     | src.ingest | ingest_single_document | Added 1 chunks to clauses.json
+2026-05-07 10:57:16 | INFO     | src.ingest | ingest_single_document | Added 1 embeddings to ChromaDB
+2026-05-07 10:57:22 | INFO     | src.ingest | ingest_single_document | Added nodes to Neo4j for doc_5431cb76
+2026-05-07 10:57:22 | INFO     | src.ingest | ingest_single_document |  Successfully ingested doc_5431cb76: 1 chunks
+2026-05-07 10:57:30 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 288 documents
+2026-05-07 10:57:44 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 10:57:44 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 11:00:40 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 288 documents
+2026-05-07 11:00:53 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 11:00:53 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 11:04:01 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 288 documents
+2026-05-07 11:04:14 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 11:04:14 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 11:04:44 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 288 documents
+2026-05-07 11:04:57 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 11:04:57 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 11:05:00 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 288 documents
+2026-05-07 11:05:02 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 288 documents
+2026-05-07 11:05:13 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 11:05:13 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 11:05:15 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 11:05:15 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 11:05:51 | INFO     | src.ingest | ingest_single_document | Ingesting document: doc_3d23be4d (effective: 2026-05-07)
+2026-05-07 11:05:52 | INFO     | src.ingest | ingest_single_document | Saved processed text: D:\RAG_Project\data\processed_texts\doc_3d23be4d.txt
+2026-05-07 11:05:52 | INFO     | src.ingest | ingest_single_document | Added 1 chunks to clauses.json
+2026-05-07 11:06:03 | INFO     | src.ingest | ingest_single_document | Added 1 embeddings to ChromaDB
+2026-05-07 11:06:05 | INFO     | src.ingest | ingest_single_document | Added nodes to Neo4j for doc_3d23be4d
+2026-05-07 11:06:05 | INFO     | src.ingest | ingest_single_document |  Successfully ingested doc_3d23be4d: 1 chunks
+2026-05-07 11:06:14 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 289 documents
+2026-05-07 11:06:27 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 11:06:27 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 11:25:44 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 289 documents
+2026-05-07 11:25:55 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 11:25:55 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 12:18:20 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 289 documents
+2026-05-07 12:18:34 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 12:18:34 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-07 13:33:11 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 289 documents
+2026-05-07 13:33:21 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-07 13:33:21 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized

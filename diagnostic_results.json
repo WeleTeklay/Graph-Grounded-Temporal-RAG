@@ -1,0 +1,99 @@
+{
+  "timestamp": "2026-04-21T06:57:46.538066",
+  "overall_score": 69.0,
+  "results": [
+    {
+      "component": "Vector Database",
+      "test_name": "test_vector_db",
+      "passed": true,
+      "score": 100,
+      "details": "Collection: 3108 documents, Query working: True, Metadata: [{'char_count': 1376, 'chunk_hash': '65c52dee4476e767', 'chunk_id': 'doc_001_chunk_001', 'chunk_index': 0, 'doc_id': 'doc_001', 'effective_date': '2020-01-15', 'has_section_header': False, 'word_count': 176}]",
+      "recommendations": ["Vector DB is healthy"],
+      "execution_time_ms": 114316
+    },
+    {
+      "component": "Graph Database",
+      "test_name": "test_graph_db",
+      "passed": false,
+      "score": 0,
+      "details": "Connection failed: Couldn't connect to localhost:7687 (resolved to ()):\nFailed to establish connection to ResolvedIPv6A",
+      "recommendations": [
+        "Start Neo4j: neo4j.bat start",
+        "Check credentials in .env"
+      ],
+      "execution_time_ms": 4088
+    },
+    {
+      "component": "Hybrid Retrieval",
+      "test_name": "test_hybrid_retrieval",
+      "passed": true,
+      "score": 100,
+      "details": "Average result diversity: 300.00% (across 3 queries)",
+      "recommendations": ["Hybrid retrieval is working well"],
+      "execution_time_ms": 15293
+    },
+    {
+      "component": "Reranking",
+      "test_name": "test_reranking",
+      "passed": true,
+      "score": 100,
+      "details": "Reranker available: True, Initial results: 10",
+      "recommendations": [],
+      "execution_time_ms": 14750
+    },
+    {
+      "component": "Temporal Resolution",
+      "test_name": "test_temporal_resolution",
+      "passed": false,
+      "score": 100,
+      "details": "Graph used: False, Answers differ by date: False",
+      "recommendations": ["Build graph with SUPERSEDES relationships"],
+      "execution_time_ms": 491830
+    },
+    {
+      "component": "Contradiction Detection",
+      "test_name": "test_contradiction_detection",
+      "passed": false,
+      "score": 50,
+      "details": "Versions found: 0, Contradiction detected: False",
+      "recommendations": ["Check Neo4j connection"],
+      "execution_time_ms": 15301
+    },
+    {
+      "component": "LLM Integration",
+      "test_name": "test_llm_integration",
+      "passed": true,
+      "score": 100,
+      "details": "Ollama connected: \u2705, Response received: True",
+      "recommendations": [],
+      "execution_time_ms": 1920
+    },
+    {
+      "component": "End-to-End Pipeline",
+      "test_name": "test_e2e_pipeline",
+      "passed": true,
+      "score": 100,
+      "details": "Answer: True, Sources: True, Contradiction: False",
+      "recommendations": ["E2E pipeline is fully functional"],
+      "execution_time_ms": 245729
+    },
+    {
+      "component": "Response Time",
+      "test_name": "test_response_time",
+      "passed": true,
+      "score": 80,
+      "details": "Average: 3481ms (\u00b1460ms) over 3 queries",
+      "recommendations": ["Response time is acceptable"],
+      "execution_time_ms": 26578
+    },
+    {
+      "component": "Memory Efficiency",
+      "test_name": "test_memory_efficiency",
+      "passed": false,
+      "score": 0,
+      "details": "Test failed: No module named 'psutil'",
+      "recommendations": ["Fix the underlying error and retest"],
+      "execution_time_ms": 2
+    }
+  ]
+}

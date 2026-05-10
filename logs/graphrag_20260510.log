@@ -1,0 +1,35 @@
+2026-05-10 00:20:27 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 289 documents
+2026-05-10 00:20:37 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-10 00:20:37 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-10 00:30:55 | INFO     | src.ingest | ingest_single_document | Ingesting document: doc_d363604b (effective: 2026-05-10)
+2026-05-10 00:30:55 | INFO     | src.ingest | ingest_single_document | Saved processed text: D:\RAG_Project\data\processed_texts\doc_d363604b.txt
+2026-05-10 00:30:56 | INFO     | src.ingest | ingest_single_document | Added 1 chunks to clauses.json
+2026-05-10 00:31:04 | INFO     | src.ingest | ingest_single_document | Added 1 embeddings to ChromaDB
+2026-05-10 00:31:10 | INFO     | src.ingest | ingest_single_document | Added nodes to Neo4j for doc_d363604b
+2026-05-10 00:31:10 | INFO     | src.ingest | ingest_single_document |  Successfully ingested doc_d363604b: 1 chunks
+2026-05-10 00:31:17 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 290 documents
+2026-05-10 00:31:27 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-10 00:31:27 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-10 00:32:15 | INFO     | src.ingest | ingest_single_document | Ingesting document: doc_55b690e7 (effective: 2026-05-10)
+2026-05-10 00:32:15 | INFO     | src.ingest | ingest_single_document | Saved processed text: D:\RAG_Project\data\processed_texts\doc_55b690e7.txt
+2026-05-10 00:32:16 | INFO     | src.ingest | ingest_single_document | Added 1 chunks to clauses.json
+2026-05-10 00:32:24 | INFO     | src.ingest | ingest_single_document | Added 1 embeddings to ChromaDB
+2026-05-10 00:32:26 | INFO     | src.ingest | ingest_single_document | Added nodes to Neo4j for doc_55b690e7
+2026-05-10 00:32:26 | INFO     | src.ingest | ingest_single_document |  Successfully ingested doc_55b690e7: 1 chunks
+2026-05-10 00:32:33 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 291 documents
+2026-05-10 00:32:43 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-10 00:32:43 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-10 00:58:21 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 291 documents
+2026-05-10 00:58:31 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-10 00:58:31 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-10 01:39:12 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 291 documents
+2026-05-10 01:39:22 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-10 01:39:22 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-10 01:40:00 | ERROR    | __main__ | main | Query failed: 'OptimizedQueryEngine' object has no attribute '_build_prompt'
+2026-05-10 01:41:13 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 291 documents
+2026-05-10 01:41:23 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-10 01:41:23 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized
+2026-05-10 01:42:07 | ERROR    | __main__ | main | Query failed: 'OptimizedQueryEngine' object has no attribute '_build_prompt'
+2026-05-10 01:47:15 | INFO     | src.optimized_retriever | _build_index | BM25 index built: 291 documents
+2026-05-10 01:47:24 | INFO     | src.optimized_retriever | __init__ | Graph features enabled
+2026-05-10 01:47:24 | INFO     | src.optimized_retriever | __init__ | Optimized Query Engine initialized

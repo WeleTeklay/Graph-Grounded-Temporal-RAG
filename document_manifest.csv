@@ -1,0 +1,9 @@
+doc_id,doc_title,effective_date,supersedes_doc_id
+tax_2025,Income Tax Proclamation 2025,2025-01-01,
+tax_2022,Income Tax Proclamation 2022,2022-01-01,tax_2025
+tax_2021,Income Tax Proclamation 2021,2021-01-01,tax_2022
+tax_2017,Income Tax Proclamation 2017,2017-01-01,tax_2021
+tax_2009,Income Tax Proclamation 2009,2009-01-01,tax_2017
+tax_2002,Income Tax Proclamation 2002,2002-01-01,tax_2009
+tax_2001,Income Tax Proclamation 2001,2001-01-01,tax_2002
+
